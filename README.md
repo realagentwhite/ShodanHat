@@ -1,4 +1,20 @@
-# Dependencies
+
+# ShodanHat - Shodan scanner
+===
+
+### About
+This is a shodan scanner made in **python2**. I am trying to find a way to 
+upgrade it to **python3**. (Check **TODO** at the bottom)
+
+
+## NOTE!!!
+I am not the owner of this tool but since it has been long time without maintaining it,
+I have forked it and decided to try maintaining it by adding improvements.
+
+# Requirements
+If you do not install the deps. below, the script will automatically install for you
+then restart the tool. 
+
 You need to install shodan with pip install shodan or easy_install shodan.<br />
 You need to install python-nmap with pip install python-nmap.<br />
 You need to set your API Key in the 'constantes.py' file.
@@ -25,6 +41,5 @@ python shodanhat.py -i IP<br />
 python shodanhat.py -l list.txt<br />
 You can also set a searchquery to make a specific query with '-s' option!
 
-# ScreenShots
-<img src="http://i.imgur.com/J4aAHov.jpg" /><br />
-<img src="http://i.imgur.com/q3YTHm8.jpg" />
+# TODO
+- Upgrade from python2 to python3 as python2 is no longer being used most of the time
